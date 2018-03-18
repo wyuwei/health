@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'icon';
+  src:
+    url('../../fonts/icon.ttf?ffoy98') format('truetype'),
+    url('../../fonts/icon.woff?ffoy98') format('woff'),
+    url('../../fonts/icon.svg?ffoy98#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_data:before {
+  content: "\e900";
+  color: #f19b45;
+}
+.icon_down:before {
+  content: "\e901";
+  color: #666;
+}
+.icon_left:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon_life:before {
+  content: "\e903";
+  color: #f19b45;
+}
+.icon_tip:before {
+  content: "\e904";
+  color: #f19b45;
+}
+.icon_up:before {
+  content: "\e905";
+  color: #666;
+}

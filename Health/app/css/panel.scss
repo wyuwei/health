@@ -1,0 +1,13 @@
+@mixin panel ($bgcolor: #fff, $padding: 10px 0, $hPadding: 0 20px, $margin: 20px 20px, $height: 60px, $color: #333, $fontSize: 28px, $bRadius: 8px, $border: 1px solid #ccc) {
+	padding: $padding;
+	margin: $margin;
+	// height: auto;
+	line-height: $height;
+	border-radius: $bRadius;
+	border: $border;
+	>h4{
+		color: $color;
+		font-size: $fontSize;
+		padding: $hPadding;
+	}
+}
